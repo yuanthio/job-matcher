@@ -260,7 +260,7 @@ export default function UploadCvCard() {
 
         // Fetch job recommendations based on skills
         if (skills.length > 0) {
-          await fetchJobRecommendations(skills, null, true);
+          await fetchJobRecommendations(skills, undefined, true);
         } else {
           setDebugInfo("No skills found in CV. Please check your CV format.");
           setJobs([]);
