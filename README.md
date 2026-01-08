@@ -51,17 +51,25 @@ The platform is built with a clean, scalable frontend architecture and a cloud-b
 
 ## 📂 Project Structure
 
-    ```bash
+    ```text
     job-matcher/
-    ├── app/                    # Next.js App Router (Pages & Layouts)
-    ├── components/             # Reusable UI components
-    ├── lib/                    # Supabase client & utility functions
-    ├── hooks/                  # Custom React hooks
-    ├── types/                  # TypeScript type definitions
-    ├── public/                 # Static assets
-    ├── styles/                 # Global styles
-    ├── .env.example            # Environment variable template
-    └── README.md               # Project documentation
+    ├── public/                   # Static assets (favicon, images, etc.)
+    ├── src/                      # Main source code
+    │   ├── app/                  # Next.js App Router (pages/layouts)
+    │   ├── components/           # Reusable UI components
+    │   ├── lib/                  # Supabase client & helper functions
+    │   ├── hooks/                # Custom React hooks
+    │   ├── types/                # TypeScript type definitions
+    │   └── styles/               # Global & utility styles
+    ├── .gitignore                # Files to ignore in Git
+    ├── components.json           # Editor components config
+    ├── eslint.config.mjs         # ESLint configuration
+    ├── next.config.ts            # Next.js configuration
+    ├── package.json              # Dependencies & scripts
+    ├── postcss.config.mjs        # Tailwind/PostCSS config
+    ├── tsconfig.json             # TypeScript config
+    ├── tsconfig.cron.json        # Cron TS config (if any)
+    └── README.md                 # Project documentation
 
 ## Getting Started
 1. Clone Repository
