@@ -43,9 +43,9 @@ The platform is built with a clean, scalable frontend architecture and a cloud-b
 
 ### Backend / Platform
 - Supabase
-  - Authentication
-  - PostgreSQL Database
-  - Serverless APIs
+- Authentication
+- PostgreSQL Database
+- Serverless APIs
 
 ---
 
