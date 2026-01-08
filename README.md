@@ -71,7 +71,7 @@ The platform is built with a clean, scalable frontend architecture and a cloud-b
     ├── tsconfig.cron.json        # Cron TS config (if any)
     └── README.md                 # Project documentation
 
-## Getting Started
+## 🚀 Getting Started
 1. Clone Repository
    ```bash
    git clone https://github.com/yuanthio/job-matcher.git
@@ -88,7 +88,7 @@ The platform is built with a clean, scalable frontend architecture and a cloud-b
    ```bash
    npm run dev
 
-## Project Goals
+## 🎯 Project Goals
 Job Matcher is built to demonstrate:
 - Clean Frontend Architecture with Next.js App Router
 - Effective use of Supabase as Backend-as-a-Service
